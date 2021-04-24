@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <h1>My Registration Form</h1>
+</head>
+<form action="process.php" method="post">
+
+    <head>
+        <h3> Please Register</h3>
+    </head>
+    <ul>
+        <li><label for="first_name">First Name:</label></li>
+        <input type="text" id="first_name" name="first_name">
+
+        <li><label for="last_name">Last Name:</label></li>
+        <input type="text" id="last_name" name="last_name">
+
+        <li><label for="email">Email:</label></li>
+        <input type="text" id="email" name="email">
+
+        <li><label for="password">Password:</label></li>
+        <input type="password" id="password" name="password">
+
+        <li><label for="pw_confirm">Password Confirmation:</label></li>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+
+        <li><label for="birthday">Birthday:</Label></li>
+        <input type="birthday" id="birthday" name="birthday">
+    </ul>
+
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+
+    <labelcopy for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+
+        <p>Whats Your Favorite Language?</p>
+        <ul>
+            <li><label for="javascript">Javescript</label></li>
+            <input type="radio" id="javascript" name="language" value="javascript">
+
+            <li><label for="html">HTML</label></li>
+            <input type="radio" id="html" name="language" value="html">
+
+            <li><label for="css">CSS</label></li>
+            <input type="radio" id="css" name="language" value="CSS">
+
+            <li><label for="python">Python</label></li>
+            <input type="radio" id="python" name="language" value="Python">
+
+            <li><label for="sql">SQL</label></li>
+            <input type="radio" id="sql" name="language" value=SQL>
+        </ul>
+
+        <p>Say a few words about yourself:</p>
+        <textarea name="description"></textarea>
+        <input type="submit" value="Click here to register">
+</form>
+
+</html>

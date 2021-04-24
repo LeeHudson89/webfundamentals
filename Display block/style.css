@@ -1,0 +1,28 @@
+.wrapper {
+	width: 800px;
+	background-color: #d3d1ad;
+}
+
+.blue {
+	background-color:  #82b3ed;
+	padding:10px;
+	border: 3px solid black;
+	margin:20px;
+    width: 370px;
+}
+.red {
+	background-color: #f3696f;
+	padding: 1px;;
+	border: 3px solid black;
+	margin:20px;
+    width: 270px;
+}
+
+.main div {
+	display: inline-block;
+}
+
+.main img{
+    height: 270px;
+
+}

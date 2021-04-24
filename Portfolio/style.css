@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    background-color:#f9f9f9;
+}
+
+h1 {
+    margin-right: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+    margin-left: 350px;
+}
+#main {
+    background: linear-gradient(#1f0f13,#6f5964);
+    padding: 20px;
+    width: 929px;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 3px;
+}
+
+.topimage {
+    width: 400px;
+    margin-right: 50px;
+    vertical-align: top;
+
+}
+
+#about {
+    width: 468px;
+    height: 265px;
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+    padding: 0px;
+    display: inline-block;
+    
+}
+
+.about-heading1 {
+    background:linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    padding: 10px;
+    margin-left: -1px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+#about p {
+    margin-bottom: 50px;
+
+}
+
+li {
+    list-style: none;
+}
+
+#about a {
+    display:flex;
+    justify-content: right;
+    color: black;
+    margin: 10px;
+}
+
+#page-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.content {
+    background:linear-gradient(to bottom right, #fefefe, #dbcbda);
+    margin-right: 13px;
+
+}
+.content-heading{
+    background:linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    font-size: 23px;
+    width: 301px;
+    margin: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.lamode {
+    width: 301px;
+    margin-bottom: 5px;
+}
+p{
+    margin-left: 12px;
+    margin-bottom: 19px;
+}
+.bottom-image{ 
+    width: 50px;
+    margin-top: 10px;
+    margin: 2px;
+}
+.bottom-header {
+    margin-top: 40px;
+    margin:10px;
+
+}
+.family-contacts{
+    width: 300px;
+    margin-bottom: 6px;
+}
+.five-eleven{
+    width: 300px;
+    margin-bottom: 6px;
+}
+.lamode-button{
+    display: block;
+    width: 53px;
+    margin: 11px;
+    margin-left: 111px;
+    background-color: green;
+    border-radius: 10px;
+}
+.fc-button{
+    display: block;
+    width: 60px;
+    margin: 11px;
+    margin-left: 111px;
+    background-color: green;
+    border-radius: 10px;
+}
+.fe-button{
+    display: block;
+    width: 70px;
+    margin: 11px;
+    margin-top: 15px;
+    margin-left: 111px;
+    background-color: green;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 967px;
+    margin-left: -19px;
+}
+.footer a {
+    color: black;
+}
+.social {
+    text-align: center;
+    height: 25px;
+    width: 25px;
+}
